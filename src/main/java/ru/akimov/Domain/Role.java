@@ -1,2 +1,5 @@
-package ru.akimov.Domain;public enum Role {
+package ru.akimov.Domain;
+
+public enum Role {
+    USER;
 }
