@@ -17,6 +17,8 @@ public class Message {
     @JoinColumn(name = "user_id")
     private User author;
 
+    private String filename;
+
     //всегда должен быть конструктор без параметров! Иначе Spring начнет чудить...
     public Message() {
     }
@@ -61,5 +63,13 @@ public class Message {
 
     public void setAuthor(User author) {
         this.author = author;
+    }
+
+    public String getFilename() {
+        return filename;
+    }
+
+    public void setFilename(String filename) {
+        this.filename = filename;
     }
 }
