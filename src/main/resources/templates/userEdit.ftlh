@@ -12,6 +12,6 @@ Change user info
     </#list>
     <input type="hidden" value="${user.id}" name="userId">
     <input type="hidden" value="${_csrf.token}" name="_csrf">
-    <button type="submit">Save user info</button>
+    <button type="submit" class="btn btn-primary">Save user info</button>
 </form>
 </@c.page>

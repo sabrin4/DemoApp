@@ -20,6 +20,4 @@ List of users
     </#list>
     </tbody>
 </table>
-
-
 </@c.page>
