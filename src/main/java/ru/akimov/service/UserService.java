@@ -62,6 +62,6 @@ public class UserService implements UserDetailsService {
 
         userRepo.save(user);
 
-        return false;
+        return true;
     }
 }
